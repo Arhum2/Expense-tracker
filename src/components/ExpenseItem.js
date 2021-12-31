@@ -1,12 +1,16 @@
 import "./ExpenseItem.css";
 
 function ExpenseItem() {
+    const expenseDate = new Date(2021, 2, 28);
+    const expenseTitle = 'Netflex subscription';
+    const expenseAmount = '16.99';
+
   return (
     <div className='expense-item'>
-      <div>November 3rd 2021</div>
+      <div>{expenseDate.toISOString()}</div>
       <div className="expense-item__description">
-        <h2>Netflex subscription</h2>
-        <div className="expense-item__price">$16.99</div>
+        <h2>{expenseTitle}</h2>
+        <div className="expense-item__price">${expenseAmount}</div>
       </div>
     </div>
   );
