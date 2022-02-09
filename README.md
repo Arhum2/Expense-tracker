@@ -1,3 +1,23 @@
+# React Expense Tracker
+
+*This project was done as a part of React the complete guide on Udemy, more information and its requirements can be found [here](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)*
+
+# Demo
+
+1. Landing page displaying 'new expense' button, as well as a live graph upating each months spending based off user input
+
+![Capture](https://user-images.githubusercontent.com/82200170/153292137-3eacc9d7-25ae-4d83-819b-369c19030fe4.PNG)
+
+2. Filling expense form then clicking submit. 
+
+![Capture1](https://user-images.githubusercontent.com/82200170/153292437-c6e8d133-9d4a-4966-901e-af6391b9ad9b.PNG)
+
+3. Then the site dynamically updates the graph based on new expenses. Expenses can also be sorted by year using the year drop down menu
+
+![Capture2](https://user-images.githubusercontent.com/82200170/153292472-af66203a-1b51-459f-81d5-d54b9e760cff.PNG)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
